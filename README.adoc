@@ -1,0 +1,23 @@
+= Transforming Lightweight Markup Languages for Scientific Publishing
+
+This repository aims to demonstrate how lightweight markup languages such as Markdown and AsciiDoc can be used for scientific publishing.
+For now, it consists of a PDF article and a corresponding web page. 
+
+== Install
+
+The examples are built on top of the Docker ecosystem, so Docker is required to build the output.
+
+- https://docs.docker.com/get-docker/
+
+Since each folder represents one possible way to convert a source format using a particular tool, the Docker commands containing these tools are located there.
+
+== Usage
+
+To build the output, navigate to the example of your choice and run the build script file.
+
+[source, bash]
+----
+$ ./build.sh
+----
+
+This will run the appropriate Docker commands and create an out folder in the current working directory containing the files created.
