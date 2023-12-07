@@ -1,0 +1,33 @@
+extends: base
+font:
+  catalog:
+    Noto Serif:
+      normal: GEM_FONTS_DIR/notoserif-regular-subset.ttf
+      bold: GEM_FONTS_DIR/notoserif-bold-subset.ttf
+      italic: GEM_FONTS_DIR/notoserif-italic-subset.ttf
+      bold_italic: GEM_FONTS_DIR/notoserif-bold_italic-subset.ttf
+page:
+  layout: portrait
+  margin: [0.75in, 1in, 0.75in, 1in]
+  size: A4
+base:
+  font-color: #333333
+  font-family: Noto Serif
+  font-size: 10
+  line-height: 1.05
+  text-align: justify
+role:
+  removed:
+    font-style: italic
+    text-decoration: line-through
+    text-decoration-color: #FF0000
+heading:
+  font-color: #262626
+  font-size: 12
+  font-style: normal
+  line-height: 1.05
+  margin-bottom: 10
+link:
+  font-color: #002FA7
+list:
+  indent: $base-font-size * 1.5
